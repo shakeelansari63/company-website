@@ -38,6 +38,9 @@ jobs:
       - name: Build package for deployment
         run: ng build --output-path=dist --base-href="https://shakeelansari63.github.io/company-website/"
 
+      - name: Copy Index in 404
+        run: cp dist/index.html dist/404.html
+
       - name: Deploy package to github pages
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
