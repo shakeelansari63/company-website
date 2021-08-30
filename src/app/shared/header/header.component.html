@@ -1,0 +1,29 @@
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Container for margins -->
+    <div class="container">
+        <!-- Brand Logo -->
+        <a routerLink="home" class="navbar-brand nav-link">{{ companyName }}</a>
+
+        <!-- Hamburger menu for small screen -->
+        <button 
+            class="navbar-toggler" 
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-menus">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation Buttons -->
+        <div class="collapse navbar-collapse" id="navbar-menus">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a routerLink="projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a routerLink="contactus" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
