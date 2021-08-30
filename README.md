@@ -4,4 +4,4 @@ Company Website using Bootstrap 5 in Angular
 
 ## URL
 
-[https://github.com/shakeelansari63/company-website/](https://github.com/shakeelansari63/company-website/)
+[https://shakeelansari63.github.io/company-website/](https://shakeelansari63.github.io/company-website/)
