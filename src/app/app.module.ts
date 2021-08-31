@@ -15,6 +15,7 @@ import { HomeFeaturesComponent } from './components/home-features/home-features.
 import { HomeHighlightsComponent } from './components/home-highlights/home-highlights.component';
 import { HomeFaqsComponent } from './components/home-faqs/home-faqs.component';
 import { HomePeopleComponent } from './components/home-people/home-people.component';
+import { HomeLocationComponent } from './components/home-location/home-location.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { HomePeopleComponent } from './components/home-people/home-people.compon
     HomeFeaturesComponent,
     HomeHighlightsComponent,
     HomeFaqsComponent,
-    HomePeopleComponent
+    HomePeopleComponent,
+    HomeLocationComponent
   ],
   imports: [
     BrowserModule,
