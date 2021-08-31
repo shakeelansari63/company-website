@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-footer',
@@ -9,9 +10,13 @@ export class FooterComponent implements OnInit {
 
   @Input() companyName: string;
 
-  constructor() { }
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
+  }
+
+  goToTop() {
+    window.scroll(0, 0)
   }
 
 }
