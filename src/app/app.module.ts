@@ -18,6 +18,7 @@ import { HomePeopleComponent } from './components/home-people/home-people.compon
 import { HomeLocationComponent } from './components/home-location/home-location.component';
 import { ProjectShowcaseComponent } from './components/project-showcase/project-showcase.component';
 import { ProjectListComponent } from './components/project-list/project-list.component';
+import { ContactMainComponent } from './components/contact-main/contact-main.component';
 import { ContactShowcaseComponent } from './components/contact-showcase/contact-showcase.component';
 
 @NgModule({
@@ -37,6 +38,7 @@ import { ContactShowcaseComponent } from './components/contact-showcase/contact-
     HomeLocationComponent,
     ProjectShowcaseComponent,
     ProjectListComponent,
+    ContactMainComponent,
     ContactShowcaseComponent
   ],
   imports: [
